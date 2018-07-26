@@ -9,12 +9,12 @@ function sumar()
 	var resultado;
 
 	numeroUno=document.getElementById('numeroUno').value;
-	numeroDos=document.getElementById('numeroDos').value;
 	numeroUno=parseInt(numeroUno);
+	numeroDos=document.getElementById('numeroDos').value;
 	numeroDos=parseInt(numeroDos);
-	resultado=(numeroUno+numeroDos);
-	
-	alert("La suma es " + resultado);
+	resultado=numeroUno+numeroDos; 
+
+	alert("La suma es "+resultado);
 }
 
 function restar()
@@ -24,26 +24,27 @@ function restar()
 	var resultado;
 
 	numeroUno=document.getElementById('numeroUno').value;
-	numeroDos=document.getElementById('numeroDos').value;
 	numeroUno=parseInt(numeroUno);
+	numeroDos=document.getElementById('numeroDos').value;
 	numeroDos=parseInt(numeroDos);
-	resultado=(numeroUno - numeroDos);
-	alert("La resta es "+ resultado);
+	resultado=numeroUno-numeroDos;
+
+	alert("La resta es "+resultado);
 }
 
 function multiplicar()
-{ 	
+{ 
 	var numeroUno;
 	var numeroDos;
 	var resultado;
 
 	numeroUno=document.getElementById('numeroUno').value;
-	numeroDos=document.getElementById('numeroDos').value;
 	numeroUno=parseInt(numeroUno);
+	numeroDos=document.getElementById('numeroDos').value;
 	numeroDos=parseInt(numeroDos);
-	resultado=(numeroUno * numeroDos);
-	alert("La multiplicacion es "+ resultado);
+	resultado=numeroUno*numeroDos;
 
+	alert("La multiplicacion es "+resultado);
 }
 
 function dividir()
@@ -53,10 +54,11 @@ function dividir()
 	var resultado;
 
 	numeroUno=document.getElementById('numeroUno').value;
-	numeroDos=document.getElementById('numeroDos').value;
 	numeroUno=parseInt(numeroUno);
+	numeroDos=document.getElementById('numeroDos').value;
 	numeroDos=parseInt(numeroDos);
-	resultado=(numeroUno / numeroDos);
-	alert("La division es "+ resultado);
+	resultado=numeroUno/numeroDos;
+
+	alert("La division es "+resultado);
 }
 

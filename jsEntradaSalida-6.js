@@ -6,17 +6,13 @@ function sumar()
 	var numeroUno;
 	var numeroDos;
 	var resultado;
-	
-			//numeroUno= "6";
-			//numeroDos= 6;
-	numeroUno=document.getElementById('numeroUno').value;/*el instert sirve para escribir por encima de donde estoy*/
+
+	numeroUno=document.getElementById('numeroUno').value;
+	numeroUno=parseInt(numeroUno);/*El parseInt se usa para numeros enteres, y cuando se accione el boton sala una cuenta y no los numeros juntos*/
 	numeroDos=document.getElementById('numeroDos').value;
-	
-	numeroUno=parseInt(numeroUno);
-	numeroDos=parseInt(numeroDos)
+	numeroDos=parseInt(numeroDos);
+	resultado=numeroUno+numeroDos;
 
-	resultado=(numeroUno+numeroDos);
-	alert(resultado);
-
+	alert("La suma es "+ resultado);
 }
 
