@@ -13,9 +13,15 @@ function mostrar()
 		numero=prompt("Ingrese un numerito");
 		numero=parseInt(numero);
 		contador ++;
-		positivo=positivo+numero;
-		negativo=negativo*numero;
 		respuesta=prompt("¿Quiere continuar?");
+		if(numero<0)
+		{
+			negativo=negativo*numero;
+		}
+		else
+		{
+			positivo=positivo+numero;
+		}
 
 	}
 
