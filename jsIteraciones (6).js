@@ -1,19 +1,18 @@
 function mostrar()
 {
 
-	var contador=0; // cuenta sobre una variable y literal y fija
-	var acumulador=0;
-	var numero; // el numero va variando
+	var contador=0;
+	var acumulador=0; //preguntar para que serviria el acumulador en este caso.
+	var numero;
 
-	while(contador<5) //no hacer el procedimiento aca osea suma y resta etc
-	{	
-		numero=prompt("Ingrese numerito");
+	while(contador<5)
+	{
+		numero=prompt("Ingrese un numero");
 		numero=parseInt(numero);
 		contador ++;
-		acumulador= acumulador+ numero; 
+		acumulador=acumulador+numero;
 	}
-	promedio=acumulador/contador; //es lo mismo que esta abajo
-	
+
 
 	document.getElementById('suma').value=acumulador;
 	document.getElementById('promedio').value=acumulador/5;
