@@ -7,35 +7,10 @@ function mostrar()
 
 	if(edad<18 && edad>12)
 	{
-		//adolescente, no pongo nada
-	}
-	else
-	{
-		alert("USTED NO ES UN adolescente");/*lo contrario al if seria esto*/
 
 	}
-
-
-	/* OPCION 2 
-	if(edad>=18 || edad<=12) /*las dos barras significan el O 
+	else //Lo contrario al if
 	{
 		alert("Usted NO es un adolescente");
 	}
-	*/
-
-
-
-
-
-	/*if(!(edad<18 && edad>12))/* con el! niego la condicion
-		{	
-		
-			
-				alert("Usted NO es adolescente");
-			
-			
-		}*/
-
-		
-
 }//FIN DE LA FUNCIÓN

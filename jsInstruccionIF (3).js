@@ -9,11 +9,9 @@ function mostrar()
 	{
 		alert("Usted es mayor de edad");
 	}
-
-	else/*utilizar el else*//*puedo utilizar otro if*/
+	else
 	{
 		alert("Usted es menor de edad");
 	}
 
-	/*hay otro bloque de comparación, es el "else" //instrucciones, si es verdadero uno, se ejecuta una instruccion, si es falsa, se ejecutara la otra*/
 }//FIN DE LA FUNCIÓN
